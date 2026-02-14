@@ -2,7 +2,7 @@ import java.io.*;
 import java.lang.Math;
 /*Codigo: U1P0. Operaciones aritméticas con BufferedReader e InputStreamReader
 Por: Merino Dominguez David */
-public class sumas {
+public class operaciones {
     public static void main(String[] args) throws IOException {
         BufferedReader bReader = new BufferedReader(new InputStreamReader(System.in));//Resumen del ImoputStreamReader y el BufferedReader en una sola linea de codigo
         boolean menu = true;//Variable boleana para controlar el while en caso de tru continuar y si es false salir del programa
