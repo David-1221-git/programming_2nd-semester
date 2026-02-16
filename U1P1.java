@@ -4,7 +4,8 @@ public class U1P1 {
         Object[] options = {
             "1.-cuadrado",
             "2.-triangulo",
-            "3.-salir"
+            "4.-salir", 
+            "3.-circulo"
         };
         Object selection = JOptionPane.showInputDialog(
             null,
@@ -69,7 +70,30 @@ public class U1P1 {
                         );
                     }
                     break;
-                case "3.-salir":
+                case "3.-circulo":
+                    JOptionPane.showMessageDialog(null, "Calculando el area del circulo");
+                    float radio = Float.parseFloat(JOptionPane.showInputDialog("Ingrese el radio del circulo"));
+                    if (radio < 0) {
+                        JOptionPane.showMessageDialog(null, "El numero no puede ser negativo");
+                        break;
+                    }
+                    JOptionPane.showMessageDialog(null, "El area del circulo es: " + (3.1416 * radio * radio));
+                    String respuesta3 = JOptionPane.showInputDialog("Desea realizar otra operacion? (1:SI/2:NO)");
+                    if (respuesta3.equalsIgnoreCase("2")) {
+                        selection = "3.-salir";
+                    } else {
+                        selection = JOptionPane.showInputDialog(
+                            null,
+                            "Seleccione una figura geometrica",
+                            "Menu de figuras geometricas",
+                            JOptionPane.PLAIN_MESSAGE,
+                            null,
+                            options,
+                            options[0]
+                        );
+                    }
+                    break;
+                case "4.-salir":
                     JOptionPane.showMessageDialog(null, "Saliendo del programa");
                     break;   
                 default:
