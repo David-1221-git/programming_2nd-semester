@@ -76,11 +76,25 @@ public class U1P0 {
                 break;
             case 5://Caso para la potencia de numeros enteros
                 System.out.println("Bienvenido a la potencia de numeros enteros");
-                System.out.println("Ingrese el primer numero entero");
+                System.out.println("Ingrese el numero a exponer");
                 int num9 = Integer.parseInt(bReader.readLine());
-                System.out.println("Ingrese el segundo numero entero");
+                System.out.println("Ingrese el exponente");
                 int num10 = Integer.parseInt(bReader.readLine());
-                System.out.println("El resultado de la potencia es: " + (Math.pow(num9,num10)));
+                int pow=0;
+                int poten=0;
+                while (pow <= num10) {
+                    if (pow == 0) {
+                        poten = 1;
+                    } else if (num10==0) {
+                        poten = 1;
+                        break;
+                    } else {
+                        poten = poten * num9;
+                    }
+                    pow++;
+                }
+                System.out.println("El resultado de la potencia es:"+ poten);
+                //System.out.println("El resultado de la potencia es: " + (Math.pow(num9,num10))); con pow
                 System.out.println("Desea realizar otra operacion? (1:SI/2:NO)");
                 String respuesta5 = bReader.readLine();
                 if (respuesta5.equalsIgnoreCase("2")) {
