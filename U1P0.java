@@ -1,5 +1,5 @@
 import java.io.*;
-import java.lang.Math;
+//import java.lang.Math; en caso de usar pow para la potencias
 /*Codigo: U1P0. Operaciones aritméticas con BufferedReader e InputStreamReader
 Por: Merino Dominguez David */
 public class U1P0 {
