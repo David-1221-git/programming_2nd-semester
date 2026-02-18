@@ -76,13 +76,13 @@ public class U1P0 {
                 break;
             case 5://Caso para la potencia de numeros enteros
                 System.out.println("Bienvenido a la potencia de numeros enteros");
-                System.out.println("Ingrese el numero a exponer");
+                System.out.println("Por favor ingrese el numero a exponer");
                 int num9 = Integer.parseInt(bReader.readLine());
-                System.out.println("Ingrese el exponente");
+                System.out.println("Por favor ingrese el exponente");
                 int num10 = Integer.parseInt(bReader.readLine());
                 int pow=0;
                 int poten=0;
-                while (pow <= num10) {
+                while (pow <= num10) {//ciclo para no usar el pakete .math y la funcion pow
                     if (pow == 0) {
                         poten = 1;
                     } else if (num10==0) {
@@ -102,14 +102,14 @@ public class U1P0 {
                 }
                 break;
             case 6://Caso para salir del programa
-                System.out.println("Esta saliendo del programa Hasta pronto...");
+                System.out.println("Esta saliendo del programa, gracias por usarlo, hasta luego vuelva pronto");
                 menu = false;
                 break;
             default:
-                System.out.println("Opcion no valida");//Mensaje de error para cuando el valor de ope no este en los casos
+                System.out.println("La opcion ingresada no es valida, por favor intente de nuevo ingresando el numero correspondiente a la opcion deseada");//Mensaje de error para cuando el valor de ope no este en los casos
         }
         }catch(Exception e){
-            System.out.println("Error: ingrese un numero entero valido " + e.getMessage());//Mensaje de errro cuando ope no sea int 
+            System.out.println("Error: El numero ingresado no es valido por favor ingrese un numero valido " + e.getMessage());//Mensaje de errro cuando ope no sea int 
         }
      
         } 
