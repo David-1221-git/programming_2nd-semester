@@ -6,8 +6,8 @@ public class U1P1 {
         Object[] options = {//Arreglo de objetos para mostrar las opciones del menu
             "1.-cuadrado",
             "2.-triangulo",
-            "4.-salir", 
-            "3.-circulo"
+            "3.-circulo",
+            "4.-salir"
         };
         Object selection = JOptionPane.showInputDialog(
             null,
