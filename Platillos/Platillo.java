@@ -26,6 +26,5 @@ public class Platillo {
         System.out.println("Platillo: " + nombre);
         System.out.println("Precio: $" + precio);
         System.out.println("¿Es picante?: " + (esPicante ? "Sí" : "No"));
-        System.out.println("-------------------------");
     }
 }

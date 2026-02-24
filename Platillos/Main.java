@@ -1,5 +1,7 @@
 package Platillos;
-//import java.io.*;
+//import java.io.*; en caso de que quiera ingresar datos por el usuario
+/*Codigo: U2P3. Areas de figuras geometricas con JOptionPane
+Por: Merino Dominguez David */
 public class Main {
     public static void main(String[] args) {
         
