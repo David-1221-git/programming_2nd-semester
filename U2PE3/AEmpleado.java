@@ -1,5 +1,6 @@
 package U2PE3;
-
+/*Codigo: U2PE3. Salarios
+Por: Merino Dominguez David */
 import java.util.Scanner;
 
 public class AEmpleado {
