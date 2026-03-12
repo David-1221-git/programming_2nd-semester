@@ -26,8 +26,8 @@ public class Persona {
         this.nombre = nombre;
         this.edad = edad;
         this.sexo = comprobarSexo(sexo);
-        this.peso = 0;
-        this.altura = 0;
+        this.peso = 60;
+        this.altura = 1.60;
         this.DNI = generaDNI();
     }
 
