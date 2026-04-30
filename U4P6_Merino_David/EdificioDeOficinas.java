@@ -1,3 +1,4 @@
+package U4P6_Merino_David;
 public class EdificioDeOficinas implements Edificio{
     private int numOficinas;
     private double superficie;

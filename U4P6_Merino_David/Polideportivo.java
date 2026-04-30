@@ -1,3 +1,4 @@
+package U4P6_Merino_David;
 public class Polideportivo implements InstalacionDeportiva, Edificio{
       private String nombre;
       private int tipoDeInstalacion;

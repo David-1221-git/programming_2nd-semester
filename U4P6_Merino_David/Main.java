@@ -1,3 +1,4 @@
+package U4P6_Merino_David;
 public class Main {
     public static void main(String[] args) {
         Polideportivo arrayPolideportivos[] = new Polideportivo[3];
